@@ -22,13 +22,24 @@ nav > ul > li {
   /* background-color: #F0A3AD; */
   color: #F0A3AD;
   border-radius: 5px;
-  padding: 150px 15px;
-  margin: 10px;
+  padding: 110px 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 50px;
 }
 
 .container > div > h1 {
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
+  font-size: 56px;
   text-align: center;
   margin: 0;
 }
