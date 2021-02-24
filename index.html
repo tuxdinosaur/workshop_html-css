@@ -8,34 +8,33 @@
   <title>Mi sitio personal</title>
   <meta name="description" content="Sitio personal de Iván.">
   <link rel="stylesheet" href="css/main.css">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+  <!-- NAVBAR -->
   <nav>
     <ul>
-      <li>
-        <a href="#">Inicio</a>
-      </li>
-      <li>
-        <a href="#">Conóceme</a>
-      </li>
-      <li>
-        <a href="#">Contacto</a>
-      </li>
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="#about">Conóceme</a></li>
+      <li><a href="#">Contacto</a></li>
     </ul>
   </nav>
 
+  <!-- CONTENEDOR GENERAL -->
   <div class="container">
 
-    <div class="header">
-      <img class="header__img" src="./img/zorro.jpg" alt="">
-      <h1>¡Hola mundo! <br />Soy Iván Tuxtla 🦊</h1>
+    <div class="header" id="home">
+      <img class="header__img" src="./img/me.jpg" alt="">
+      <h1 class="header__title">
+        ¡Hola mundo! <br />Soy Iván Tuxtla 🦊
+      </h1>
     </div>
 
-    <div class="personalidad">
+    <!-- <div class="personalidad">
       <div>
         <div></div>
       </div>
@@ -45,7 +44,93 @@
       <div>
         <div></div>
       </div>
+    </div> -->
+
+    <!-- BLOQUE ACERCA DE MI -->
+    <div id="about">
+      <h2 class="about__title">
+        Acerca de mi
+      </h2>
+
+      <div class="row">
+
+        <div class="col-12-p">
+          <div class="contenedor-col">
+            <p style="color: #fff; font-family: 'Inter', sans-serif; text-align: center;">
+              Cuento con experiencia como Front-End Developer utilizando tecnologías y herramientas como HTML, CSS,
+              Bootstrap, JavaScript, Git y Adobe Xd.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore necessitatibus sint ipsam dolorem odit
+              distinctio, nulla aliquid est cumque dolor!
+            </p>
+          </div>
+        </div>
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est autem sunt obcaecati exercitationem
+              culpa eum saepe laboriosam maxime magni.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+
+    <!-- BLOQUE CONTACTO -->
+    <div>
+      <h2 class="contact__title">
+        Contacto
+      </h2>
+
+      <div class="row">
+
+        <div class="col-12-p">
+          <div class="contenedor-col">
+            <p style="color: #fff; font-family: 'Inter', sans-serif; text-align: center;">
+              Cuento con experiencia como Front-End Developer utilizando tecnologías y herramientas como HTML, CSS,
+              Bootstrap, JavaScript, Git y Adobe Xd.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas illo voluptatem assumenda, magni velit
+              ratione ex eius nostrum mollitia.
+            </p>
+          </div>
+        </div>
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum animi aliquam blanditiis dolorem quia
+              voluptatibus quod deleniti dolor distinctio dolores.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer>
+      <p>
+        Hecho con ❤ por
+        <a class="footer__link" href="https://github.com/tuxdinosaur" target="_blank">@tuxdinosaur</a>
+      </p>
+      <p>
+        &copy; 2021
+      </p>
+    </footer>
 
   </div>
 
