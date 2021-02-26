@@ -15,56 +15,47 @@
 
 <body>
 
-  <!-- NAVBAR -->
-  <nav>
+  <nav id="nav">
     <ul>
-      <li><a href="./index.html">Inicio</a></li>
-      <li><a href="#about">Conóceme</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a class="nav__link" href="#me">Inicio</a></li>
+      <li><a class="nav__link" href="#about">Conóceme</a></li>
+      <li><a class="nav__link" href="#contact">Contacto</a></li>
     </ul>
   </nav>
 
-  <!-- CONTENEDOR GENERAL -->
   <div class="container">
 
-    <div class="header" id="home">
-      <img class="header__img" src="./img/me.jpg" alt="">
-      <h1 class="header__title">
-        ¡Hola mundo! <br />Soy Iván Tuxtla 🦊
+    <header id="home">
+      <img id="me" class="header__img" src="./img/me.jpg" alt="">
+      <h1>
+        ¡Hola mundo!
+        <br />
+        Soy Iván Tuxtla 🦊
       </h1>
-    </div>
+    </header>
 
-    <!-- <div class="personalidad">
-      <div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-      </div>
-      <div>
-        <div></div>
-      </div>
-    </div> -->
-
-    <!-- BLOQUE ACERCA DE MI -->
     <div id="about">
       <h2 class="about__title">
-        Acerca de mi
+        Conóceme
       </h2>
 
       <div class="row">
-
         <div class="col-12-p">
           <div class="contenedor-col">
-            <p style="color: #fff; font-family: 'Inter', sans-serif; text-align: center;">
+            <h3>Acerca de mi</h3>
+            <p style="color: #fff; font-family: 'Inter', sans-serif;">
               Cuento con experiencia como Front-End Developer utilizando tecnologías y herramientas como HTML, CSS,
-              Bootstrap, JavaScript, Git y Adobe Xd.
+              Bootstrap, JavaScript, Git y Adobe Xd. Gusto por la tecnología, diseño, videojuegos, programación, ciencia
+              ficción y compartir conocimiento.
             </p>
           </div>
         </div>
 
         <div class="col-6-p">
           <div class="contenedor-col">
+            <h3>
+              Habilidades
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore necessitatibus sint ipsam dolorem odit
               distinctio, nulla aliquid est cumque dolor!
@@ -73,6 +64,9 @@
         </div>
         <div class="col-6-p">
           <div class="contenedor-col">
+            <h3>
+              Tecnologías
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est autem sunt obcaecati exercitationem
               culpa eum saepe laboriosam maxime magni.
@@ -84,8 +78,77 @@
 
     </div>
 
+    <!-- BLOQUE PROYECTOS -->
+    <div id="projects">
+      <h2 class="about__title">
+        Proyectos
+      </h2>
+
+      <div class="row">
+
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <h3>
+              Proyecto 1
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore necessitatibus sint ipsam dolorem odit
+              distinctio, nulla aliquid est cumque dolor!
+            </p>
+            <img class="project__img"
+              src="https://images.unsplash.com/photo-1508966883884-1e6a32b8de85?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="">
+          </div>
+        </div>
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <h3>
+              Proyecto 2
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est autem sunt obcaecati exercitationem
+              culpa eum saepe laboriosam maxime magni.
+            </p>
+            <img class="project__img"
+              src="https://images.unsplash.com/photo-1508966883884-1e6a32b8de85?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="">
+          </div>
+        </div>
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <h3>
+              Proyecto 3
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est autem sunt obcaecati exercitationem
+              culpa eum saepe laboriosam maxime magni.
+            </p>
+            <img class="project__img"
+              src="https://images.unsplash.com/photo-1508966883884-1e6a32b8de85?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="">
+          </div>
+        </div>
+        <div class="col-6-p">
+          <div class="contenedor-col">
+            <h3>
+              Proyecto 4
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est autem sunt obcaecati exercitationem
+              culpa eum saepe laboriosam maxime magni.
+            </p>
+            <img class="project__img"
+              src="https://images.unsplash.com/photo-1508966883884-1e6a32b8de85?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
     <!-- BLOQUE CONTACTO -->
-    <div>
+    <div id="contact">
       <h2 class="contact__title">
         Contacto
       </h2>
@@ -93,28 +156,8 @@
       <div class="row">
 
         <div class="col-12-p">
-          <div class="contenedor-col">
-            <p style="color: #fff; font-family: 'Inter', sans-serif; text-align: center;">
-              Cuento con experiencia como Front-End Developer utilizando tecnologías y herramientas como HTML, CSS,
-              Bootstrap, JavaScript, Git y Adobe Xd.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-6-p">
-          <div class="contenedor-col">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas illo voluptatem assumenda, magni velit
-              ratione ex eius nostrum mollitia.
-            </p>
-          </div>
-        </div>
-        <div class="col-6-p">
-          <div class="contenedor-col">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum animi aliquam blanditiis dolorem quia
-              voluptatibus quod deleniti dolor distinctio dolores.
-            </p>
+          <div class="contenedor-col contenedor-contact">
+            <img class="contact__img" src="./img/GitLab.png" alt="">
           </div>
         </div>
 
